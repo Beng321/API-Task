@@ -20,6 +20,19 @@ export class TaskRepository implements ITaskRepository {
       createdAt: new Date(),
     },
     {
+      id: 5,
+      idColumn: 'ip',
+      content: 'task 06',
+      createdAt: new Date(),
+    },
+    {
+      id: 6,
+      idColumn: 'de',
+      content: 'task 07',
+      createdAt: new Date(),
+    },
+
+    {
       id: 3,
       idColumn: 'td',
       content: 'task4',
